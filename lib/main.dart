@@ -40,7 +40,7 @@ class _HomePageState extends State<HomePage> {
           mainAxisSize: MainAxisSize.min,
           children: [
             const Text('ضغطات الزر', style: TextStyle(fontSize: 22)),
-            const SizedBox(height: 8),
+            const SizedBox(height: 9),
             Text('$_counter', style: const TextStyle(fontSize: 40, fontWeight: FontWeight.bold)),
             const SizedBox(height: 16),
             ElevatedButton(onPressed: _increment, child: const Text('زيادة')),
