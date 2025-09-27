@@ -33,7 +33,8 @@ class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text('Multi-Commit Demo')),
+      appBar: AppBar(title: const Text(' hello ')),
+
       body: Center(
         child: Column(
           mainAxisSize: MainAxisSize.min,
