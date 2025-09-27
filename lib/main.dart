@@ -42,7 +42,7 @@ class _HomePageState extends State<HomePage> {
             const Text('ضغطات الزر', style: TextStyle(fontSize: 22)),
             const SizedBox(height: 9),
             Text('$_counter', style: const TextStyle(fontSize: 40, fontWeight: FontWeight.bold)),
-            const SizedBox(height: 16),
+            const SizedBox(height: 18),
             ElevatedButton(onPressed: _increment, child: const Text('زيادة')),
           ],
         ),
