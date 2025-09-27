@@ -43,7 +43,7 @@ class _HomePageState extends State<HomePage> {
             const SizedBox(height: 9),
             Text('$_counter', style: const TextStyle(fontSize: 40, fontWeight: FontWeight.bold)),
             const SizedBox(height: 18),
-            ElevatedButton(onPressed: _increment, child: const Text('زيادة')),
+            ElevatedButton(onPressed: _increment, child: const Text(' زيادة سريعه')),
           ],
         ),
       ),
