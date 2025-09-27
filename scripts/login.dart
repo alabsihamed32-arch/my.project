@@ -50,7 +50,7 @@ class _LoginPageState extends State<LoginPage> {
                   controller: _emailController,
                   keyboardType: TextInputType.emailAddress,
                   decoration: const InputDecoration(
-                    labelText: 'البريد الإلكتروني',
+                    labelText: 'البريد االإلكتروني',
                     border: OutlineInputBorder(),
                     prefixIcon: Icon(Icons.email),
                   ),
